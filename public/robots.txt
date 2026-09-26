@@ -1,0 +1,9 @@
+﻿# robots.txt — Raph2 Interior Expert
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://raph2interiorexpert.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
