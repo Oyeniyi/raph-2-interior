@@ -152,7 +152,7 @@ export const Hero: React.FC = () => {
                   alt="Luxury P.O.P ceiling design by Raph2 Interior Expert Lagos Nigeria — multi-tier with LED cove lighting"
                   className="w-full h-[430px] sm:h-[480px] object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   width="640"
                   height="480"
                 />

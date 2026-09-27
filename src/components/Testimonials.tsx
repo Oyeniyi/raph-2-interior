@@ -57,7 +57,9 @@ export const Testimonials: React.FC = () => {
                 <div>
                   <h4 className="text-base font-bold font-serif text-cream-100 flex items-center gap-2">
                     {item.clientName}
-                    <CheckCircle2 className="w-3.5 h-3.5 text-gold-400" title="Verified Customer" />
+                    <span title="Verified Customer" className="inline-flex items-center">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-gold-400" />
+                    </span>
                   </h4>
                   <p className="text-xs text-gold-400/90 font-medium">
                     {item.role} &bull; <span className="text-cream-300/60">{item.location}</span>
